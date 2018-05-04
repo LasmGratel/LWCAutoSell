@@ -1,0 +1,9 @@
+name: autosell
+main: cc.lasmgratel.lwcautosell.LWCAutoSell
+depend: [LWC, Essentials, Vault]
+author: Lasm_Gratel
+version: 1.0-SNAPSHOT
+commands:
+  autosell:
+    description: Tag a LWC protection to auto sell it.
+    usage: /<command>
