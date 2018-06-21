@@ -74,7 +74,7 @@ public class LWCAutoSell extends JavaPlugin implements Listener {
     public void onHolderBreak(BlockBreakEvent event) {
         if (event.getBlock().getState() instanceof InventoryHolder) {
             config.getLocations().remove(event.getBlock().getLocation());
-            getConfig().set("", config);
+            getConfig().set("gg", config);
             reloadConfig();
         }
     }
